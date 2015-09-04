@@ -22,4 +22,4 @@ A few actually.
 
 * I wrote this to work on my Mac which 1) assumes the network interface you care about is en0 and 2) parses the output of ifconfig which is probably different from the GNU ifconfig. In other words, it won't work but the good news is all you have to do is change en0 to something like eth0 and then rewrite the regular expression to work with the GNU ifconfig output. Feel free to patch this script to work on either.
 * Requires a version of Python installed with SimpleHTTPServer
-* The copying to the clipboard depends on pbcopy which is a Mac thing but for Linux, this link looks promising: [http://superuser.com/questions/288320/whats-like-osxs-pbcopy-for-linux]()
+* The copying to the clipboard depends on pbcopy which is a Mac thing but for Linux, this link looks promising: [http://superuser.com/questions/288320/whats-like-osxs-pbcopy-for-linux](http://superuser.com/questions/288320/whats-like-osxs-pbcopy-for-linux)
